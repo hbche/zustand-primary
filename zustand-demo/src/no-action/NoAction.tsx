@@ -8,6 +8,8 @@ const increase = () =>
 const decrease = () =>
   useBoundStore.setState((state) => ({ count: state.count + 1 }));
 
+console.log(Object.keys(useBoundStore));
+
 function NoAction() {
   const count = useBoundStore((state) => state.count);
 

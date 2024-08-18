@@ -4,6 +4,7 @@ import BearsManager from './bears-manager/BearsManager';
 import FlatUpdate from './flat-update/FlatUpdate';
 import NestedUpdate from './nested-update/nested-update';
 import NoAction from './no-action/NoAction';
+import UseSyncExternalDemo from './use-sync-external/use-sync-external';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <FlatUpdate />
       <NestedUpdate />
       <NoAction />
+      <UseSyncExternalDemo />
     </>
   );
 }

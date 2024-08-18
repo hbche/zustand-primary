@@ -37,8 +37,8 @@ function FlatUpdate() {
       <input
         value={user.name}
         onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
-          // 只有 state 的 第一层 会做合并
-          //   updateUser({ name: e.target.value });
+          // // 只有 state 的 第一层 会做合并
+          // updateUser({ name: e.target.value });
           updateUser({ ...user, name: e.target.value });
         }}
       />
