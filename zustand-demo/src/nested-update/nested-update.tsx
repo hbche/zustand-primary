@@ -40,7 +40,8 @@ function NestedUpdate() {
   );
 
   return (
-    <div>
+    <section>
+      <header>嵌套数据更新</header>
       <div>Name: {user.name}</div>
       <div>
         Address:
@@ -55,7 +56,7 @@ function NestedUpdate() {
           }}
         />
       </div>
-    </div>
+    </section>
   );
 }
 

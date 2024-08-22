@@ -31,9 +31,12 @@ function BearsManagerContext() {
 
   return (
     <BearsContext.Provider value={contextValue}>
-      <BearsCounter />
-      <BearsMoving />
-      <BearsController />
+      <section>
+        <header>Context 实现状态共享</header>
+        <BearsCounter />
+        <BearsMoving />
+        <BearsController />
+      </section>
     </BearsContext.Provider>
   );
 }
