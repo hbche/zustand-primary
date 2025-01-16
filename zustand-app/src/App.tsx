@@ -10,6 +10,8 @@ import ImmerMiddlewareDemo from './components/immer-middleware-demo/immer-middle
 import AutoGenerateSelectorDemo from './components/auto-generate-selector/auto-generate-selector';
 import StoreSliceDemo from './components/store-slice-demo/store-slice-demo';
 import InitializeStateWithPropsDemo from './components/initialize-state-with-props-demo/initialize-state-with-props-demo';
+import { RestStateDemo } from './components/how-to-rest-state/how-to-rest-state';
+import { PreventRendersWithUseShallow } from './components/prevent-rerenders-with-use-shallow/prevent-rerenders-with-use-shallow';
 
 function App() {
   return (
@@ -25,6 +27,8 @@ function App() {
       <AutoGenerateSelectorDemo />
       <StoreSliceDemo />
       <InitializeStateWithPropsDemo />
+      <RestStateDemo />
+      <PreventRendersWithUseShallow />
     </>
   );
 }
