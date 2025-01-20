@@ -14,6 +14,7 @@ import { RestStateDemo } from './components/how-to-rest-state/how-to-rest-state'
 import { PreventRendersWithUseShallow } from './components/prevent-rerenders-with-use-shallow/prevent-rerenders-with-use-shallow';
 import { UseShallowDemo } from './components/use-shallow-demo/use-shallow-demo';
 import { UseStoreDemo } from './components/use-store-demo/use-store-demo';
+import { UseStoreWithEqualityFnDemo } from './components/use-store-with-equality-fn-demo/use-store-with-equality-fn-demo';
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
       <PreventRendersWithUseShallow />
       <UseShallowDemo />
       <UseStoreDemo />
+      <UseStoreWithEqualityFnDemo />
     </>
   );
 }
