@@ -10,6 +10,7 @@ export function TabsCounter() {
 
   return (
     <div style={{ fontFamily: 'monospace' }}>
+      <h3>Using dynamic global vanilla stores in React</h3>
       <div
         style={{
           display: 'flex',

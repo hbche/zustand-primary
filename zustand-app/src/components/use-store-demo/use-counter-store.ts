@@ -28,9 +28,9 @@ export const useCounterStore = <U>(
   }
 
   const getOrCreateCounterStoreByKey = useCallback(
-    () => createCounterStoreFactory(stores),
+    (key: string) => createCounterStoreFactory(stores)(key),
     [stores]
   );
 
-  return useStore(getOrCreateCounterStoreByKey()(name), selector);
+  return useStore(getOrCreateCounterStoreByKey(name), selector);
 };
