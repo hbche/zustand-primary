@@ -15,6 +15,7 @@ import { PreventRendersWithUseShallow } from './components/prevent-rerenders-wit
 import { UseShallowDemo } from './components/use-shallow-demo/use-shallow-demo';
 import { UseStoreDemo } from './components/use-store-demo/use-store-demo';
 import { UseStoreWithEqualityFnDemo } from './components/use-store-with-equality-fn-demo/use-store-with-equality-fn-demo';
+import PersistMiddlewateDemo from './components/persist-middleware-demo/persist-middleware-demo';
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
       <UseShallowDemo />
       <UseStoreDemo />
       <UseStoreWithEqualityFnDemo />
+      <PersistMiddlewateDemo />
     </>
   );
 }
